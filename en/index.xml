@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog of Xiangbo | Blog of Xiangbo</title>
+        <link>http://beanbear.github.io/en/</link>
+        <description>Blog of Xiangbo | Blog of Xiangbo</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 Mar 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://beanbear.github.io/en/" rel="self" type="application/rss+xml" /><item>
+                <title>About me</title>
+                <link>http://beanbear.github.io/en/about/</link>
+                <pubDate>Thu, 12 Mar 2020 00:00:00 &#43;0000</pubDate><guid>http://beanbear.github.io/en/about/</guid>
+                <description>&lt;h4 id=&#34;a-poor-medical-graduate-with-a-difficult-life&#34;&gt;A poor medical graduate with a difficult life……&lt;/h4&gt;
+&lt;p&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;http://beanbear.github.io/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;http://router.drbo.cn:9212/Blog/about.en.gif,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;High&#34;
+        title=&#34;High&#34; /&gt;&lt;/p&gt;
+</description>
+            </item></channel>
+</rss>
