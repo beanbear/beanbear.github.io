@@ -1,35 +1,25 @@
-language: node_js # ±àÒëÓïÑÔ¡¢»·¾³
+language: node_js # è®¾ç½®è¯­è¨€
 
-sudo: required # ĞèÒª¹ÜÀíÔ±È¨ÏŞ
-
-dist: xenial # Ö¸¶¨ CI ÏµÍ³°æ±¾Îª Ubuntu16.04 LTS
-
-node_js: stable #Node.js °æ±¾
-
-branches:
-  only:
-    - Blog_Code # Ö»ÓĞ hexo ·ÖÖ§¼ì³ö¸ü¸Ä²Å´¥·¢ CI
-
-before_install: 
-  - export TZ='Asia/Shanghai' #ÅäÖÃÊ±ÇøÎª¶«°ËÇø UTC+8
-  - npm install hexo-cli # °²×° hexo
-#  - sudo apt-get install libpng16-dev # °²×° libpng16-dev CI ±àÒë³öÏÖÏà¹Ø±¨´íÊ±ÇëÈ¡Ïû×¢ÊÍ
+node_js: stable # è®¾ç½®ç›¸åº”ç‰ˆæœ¬
 
 install:
-  - npm install # °²×°ÒÀÀµ
-
-script: # Ö´ĞĞ½Å±¾£¬Çå³ı»º´æ£¬Éú³É¾²Ì¬ÎÄ¼ş
-  - hexo clean
-  - hexo generate
-
-deploy:
-  provider: pages
-  skip_cleanup: true # Ìø¹ıÇåÀí
-  local_dir: public # ĞèÒªÍÆËÍµ½ GitHub µÄ¾²Ì¬ÎÄ¼şÄ¿Â¼ 
-  name: $GIT_NAME # ÓÃ»§Ãû±äÁ¿
-  email: $GIT_EMAIL # ÓÃ»§ÓÊÏä±äÁ¿
-  github_token: $GITHUB_TOKEN # GitHub Token ±äÁ¿
-  keep_history: true # ±£³ÖÍÆËÍ¼ÇÂ¼£¬ÒÔÔöÁ¿Ìá½»µÄ·½Ê½
-  target_branch: master # ÍÆËÍµÄÄ¿±ê·ÖÖ§ local_dir->>master ·ÖÖ§
-  on:
-    branch: Blog_Code # ¹¤×÷·ÖÖ§
+    - npm install # å®‰è£…hexoåŠæ’ä»¶
+    
+script:
+    - hexo clean # æ¸…é™¤
+    - hexo g # ç”Ÿæˆ
+    
+after_script:
+    - cd ./public
+    - git init
+    - git config user.name "beanbear" # ä¿®æ”¹name
+    - git config user.email "502792306@qq.com" # ä¿®æ”¹email
+    - git add .
+    - git commit -m "Travis CI Auto Builder :$(date '+%Y-%m-%d %H:%M:%S' -d '+8 hour')" # é›¶æ—¶åŒºï¼Œ+8å°æ—¶
+    - git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:master # GITHUB_TOKENæ˜¯åœ¨Travisä¸­é…ç½®tokençš„åç§°
+branches:
+    only:
+        - Blog_Code #åªç›‘æµ‹hexoåˆ†æ”¯ï¼Œhexoæ˜¯æˆ‘çš„åˆ†æ”¯çš„åç§°ï¼Œå¯æ ¹æ®è‡ªå·±æƒ…å†µè®¾ç½®
+env:
+    global:
+        - GH_REF: github.com/beanbear/beanbear.github.io.git #è®¾ç½®GH_REFï¼Œæ³¨æ„æ›´æ”¹yourname
