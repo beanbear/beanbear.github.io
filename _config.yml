@@ -99,8 +99,3 @@ theme: fluid
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-netlify_cms:
-  backend:
-    name: git-gateway
-    branch: master
