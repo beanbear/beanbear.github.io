@@ -10,7 +10,7 @@ title: Moment
                 <li> <span class="moment_author_img"><img src="../images/head.png" class="avatar avatar-48 zhuan" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
                         <p></p>
-                        <p>背景音乐一首~</p>
+                        <p>背景音乐三首~</p>
                         <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1338809890&auto=1&height=32"></iframe>
                         <p></p>
                         <p class="moment_time"><i class="fa fa-clock-o"></i>
