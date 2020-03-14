@@ -7,10 +7,10 @@ title: Moment
     <main id="main" class="site-main" role="main">
         <div id="moment_content">
             <ul class="cbp_tmtimeline">
-                <li> <span class="moment_author_img"><img src="../images/head.png" class="avatar avatar-48 zhuan" width="48" height="48"></span>
+                <li> <span class="moment_author_img"><img src="/img/favicon.png" class="avatar avatar-48 zhuan" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
                         <p></p>
-                        <p>背景音乐三首~</p>
+                        <p>背景音乐一首~</p>
                         <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1338809890&auto=1&height=32"></iframe>
                         <p></p>
                         <p class="moment_time"><i class="fa fa-clock-o"></i>
@@ -18,7 +18,7 @@ title: Moment
                         </p>
                     </a>
                 </li>
-                 <li> <span class="moment_author_img"><img src="../images/head.png"" class="avatar avatar-48 zhuan" width="48" height="48"></span>
+                 <li> <span class="moment_author_img"><img src="/img/favicon.png"" class="avatar avatar-48 zhuan" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
                         <p></p>
                         <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582636990314&di=2421dcd34e1cc519b7f7f9559afbe7b1&imgtype=0&src=http%3A%2F%2Fpics1.baidu.com%2Ffeed%2Fb17eca8065380cd7531865282a19873258828151.jpeg%3Ftoken%3Dce6f76a2b9dc38c02c91acfc2a4bb8d8%26s%3D3C79EF14C510746516F547E003007036" height="200" width="100" />
@@ -29,7 +29,7 @@ title: Moment
                         </p>
                     </a>
                 </li>
-                <li> <span class="moment_author_img"><img src="../images/head.png" class="avatar avatar-48 zhuan" width="48" height="48"></span>
+                <li> <span class="moment_author_img"><img src="/img/favicon.png" class="avatar avatar-48 zhuan" width="48" height="48"></span>
                     <a class="cbp_tmlabel" href="">
                         <p></p>
                         <p>第一个说说</p>

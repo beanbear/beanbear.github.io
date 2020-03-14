@@ -1,35 +1,35 @@
-language: node_js # ç¼–è¯‘è¯­è¨€ã€çŽ¯å¢ƒ
+language: node_js # ±àÒëÓïÑÔ¡¢»·¾³
 
-sudo: required # éœ€è¦ç®¡ç†å‘˜æƒé™
+sudo: required # ÐèÒª¹ÜÀíÔ±È¨ÏÞ
 
-dist: xenial # æŒ‡å®š CI ç³»ç»Ÿç‰ˆæœ¬ä¸º Ubuntu16.04 LTS
+dist: xenial # Ö¸¶¨ CI ÏµÍ³°æ±¾Îª Ubuntu16.04 LTS
 
-node_js: stable #Node.js ç‰ˆæœ¬
+node_js: stable #Node.js °æ±¾
 
 branches:
   only:
-    - Blog_Code # åªæœ‰ hexo åˆ†æ”¯æ£€å‡ºæ›´æ”¹æ‰è§¦å‘ CI
+    - Blog_Code # Ö»ÓÐ hexo ·ÖÖ§¼ì³ö¸ü¸Ä²Å´¥·¢ CI
 
 before_install: 
-  - export TZ='Asia/Shanghai' #é…ç½®æ—¶åŒºä¸ºä¸œå…«åŒº UTC+8
-  - npm install hexo-cli # å®‰è£… hexo
-#  - sudo apt-get install libpng16-dev # å®‰è£… libpng16-dev CI ç¼–è¯‘å‡ºçŽ°ç›¸å…³æŠ¥é”™æ—¶è¯·å–æ¶ˆæ³¨é‡Š
+  - export TZ='Asia/Shanghai' #ÅäÖÃÊ±ÇøÎª¶«°ËÇø UTC+8
+  - npm install hexo-cli # °²×° hexo
+#  - sudo apt-get install libpng16-dev # °²×° libpng16-dev CI ±àÒë³öÏÖÏà¹Ø±¨´íÊ±ÇëÈ¡Ïû×¢ÊÍ
 
 install:
-  - npm install # å®‰è£…ä¾èµ–
+  - npm install # °²×°ÒÀÀµ
 
-script: # æ‰§è¡Œè„šæœ¬ï¼Œæ¸…é™¤ç¼“å­˜ï¼Œç”Ÿæˆé™æ€æ–‡ä»¶
+script: # Ö´ÐÐ½Å±¾£¬Çå³ý»º´æ£¬Éú³É¾²Ì¬ÎÄ¼þ
   - hexo clean
   - hexo generate
 
 deploy:
   provider: pages
-  skip_cleanup: true # è·³è¿‡æ¸…ç†
-  local_dir: public # éœ€è¦æŽ¨é€åˆ° GitHub çš„é™æ€æ–‡ä»¶ç›®å½• 
-  name: $GIT_NAME # ç”¨æˆ·åå˜é‡
-  email: $GIT_EMAIL # ç”¨æˆ·é‚®ç®±å˜é‡
-  github_token: $GITHUB_TOKEN # GitHub Token å˜é‡
-  keep_history: true # ä¿æŒæŽ¨é€è®°å½•ï¼Œä»¥å¢žé‡æäº¤çš„æ–¹å¼
-  target_branch: master # æŽ¨é€çš„ç›®æ ‡åˆ†æ”¯ local_dir->>master åˆ†æ”¯
+  skip_cleanup: true # Ìø¹ýÇåÀí
+  local_dir: public # ÐèÒªÍÆËÍµ½ GitHub µÄ¾²Ì¬ÎÄ¼þÄ¿Â¼ 
+  name: $GIT_NAME # ÓÃ»§Ãû±äÁ¿
+  email: $GIT_EMAIL # ÓÃ»§ÓÊÏä±äÁ¿
+  github_token: $GITHUB_TOKEN # GitHub Token ±äÁ¿
+  keep_history: true # ±£³ÖÍÆËÍ¼ÇÂ¼£¬ÒÔÔöÁ¿Ìá½»µÄ·½Ê½
+  target_branch: master # ÍÆËÍµÄÄ¿±ê·ÖÖ§ local_dir->>master ·ÖÖ§
   on:
-    branch: Blog_Code # å·¥ä½œåˆ†æ”¯
+    branch: Blog_Code # ¹¤×÷·ÖÖ§

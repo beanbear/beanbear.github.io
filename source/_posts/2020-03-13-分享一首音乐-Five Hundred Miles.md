@@ -1,18 +1,24 @@
 ---
 title: 分享一首音乐，Five Hundred Miles
-date: 2020-03-12 17:01:40
 id: share500miles
 tags:
   - 分享
 categories:
   - 日常
 toc: false
-no_valine: false
-reward: false
-copyright: true
-no_word_count: false
-abbrlink: 3300
+excerpt: ''
+index_img: http://router.drbo.cn:9212/Blog/2020-03-13-01.jpg
+banner_img: ''
+abbrlink: 3299
+date: 2020-03-12 17:01:40
+banner_img_height:
 ---
+
+
+
+![](http://router.drbo.cn:9212/Blog/2020-03-13-01.jpg)
+
+
 
 很喜欢这首歌，但因为版权问题，不能够分享Justin Timberlake的音乐。
 

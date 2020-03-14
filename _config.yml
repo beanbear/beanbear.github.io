@@ -8,7 +8,7 @@ subtitle: '哀吾生之须臾，谈长江之无穷。'
 description: '分享自己的生活'
 keywords: '博客，生活，技术，医学，骨科'
 author: Drbo
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -93,27 +93,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ayer
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-# rss，安装hexo-generator-feed
-feed:
-    type: atom
-    path: atom.xml
-    limit: 20
-    hub:
-    content:
-    content_limit: 140
-    content_limit_delim: ' '
-    order_by: -date
-
-
-# 搜索，安装hexo-generator-searchdb
-search:
-  path: search.xml
-  field: post
-  format: html
