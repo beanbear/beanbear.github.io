@@ -11,6 +11,7 @@ script:
     
 after_script:
     - cd ./public
+    - echo drbo.cn > CNAME
     - git init
     - git config user.name "beanbear" # 修改name
     - git config user.email "502792306@qq.com" # 修改email
