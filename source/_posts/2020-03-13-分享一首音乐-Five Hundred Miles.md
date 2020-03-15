@@ -7,7 +7,7 @@ categories:
   - 日常
 toc: false
 excerpt: ''
-index_img: http://router.drbo.cn:9212/Blog/2020-03-13-01.jpg
+index_img: https://i.loli.net/2020/03/15/z7o3kqKpxDtUZgW.jpg
 banner_img: ''
 abbrlink: 3299
 date: 2020-03-12 17:01:40
@@ -16,8 +16,7 @@ banner_img_height:
 
 
 
-![](http://router.drbo.cn:9212/Blog/2020-03-13-01.jpg)
-![](https://router.drbo.cn:9212/Blog/2020-03-13-01.jpg)
+![](https://i.loli.net/2020/03/15/z7o3kqKpxDtUZgW.jpg)
 
 
 很喜欢这首歌，但因为版权问题，不能够分享Justin Timberlake的音乐。
