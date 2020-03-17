@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>分享一首音乐，Five Hundred Miles</title>
+    <link href="/2020/share500miles/"/>
+    <url>/2020/share500miles/</url>
+    
+    <content type="html"><![CDATA[<p><img src="https://pic.downk.cc/item/5e6de42ce83c3a1e3ad9b584.jpg" srcset="/img/loading.gif" alt=""></p><p>很喜欢这首歌，但因为版权问题，不能够分享Justin Timberlake的音乐。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=456869610&auto=1&height=32"></iframe><p>现分享<a href="https://music.163.com/artist?id=12256838" target="_blank" rel="noopener">水冰火星</a>的这首。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我和我的Blog</title>
+    <link href="/2020/Iandmyblog/"/>
+    <url>/2020/Iandmyblog/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/img/cover02.jpg" srcset="/img/loading.gif" alt=""></p><p>　　一直想拥有一个自己的域名，到现在才开始实施。</p><p>　　买了一个和自己名字和专业相关的域名，想着以后可能还有些用处。Drbo的com域名已经被注册了，top又显得不够低调。冲着cn是中国顶级域名，比较<del>喜欢</del>便宜，就买了10年的。</p><p>　　自己的域名目前还没有服务器，也没有精力再去配置，便选择了静态网页。Hexo、Hugo、 Jekyll、 Ghost都是生成静态网站的框架，再配合GitHub提供的代码库可以较成熟的搭建一个博客，网上也有很多的教程。之前想要学习hexo的框架，因为我发现了几款比较好看的主题。但是考虑到自己的电脑速度并不太行，过段时间再写几篇文章，可能需要10几分钟才能生成网页，最后决定用hugo搭建。之前学习R语言时，看到GO语言的功能更加强大，适用范围也更广，心中也倾向于搭建hugo框架的博客。也是在github中找了些许时间，找到了<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener">LoveIt主题</a>，各方面都挺好的。</p><p>　　选好并配置完主题之后，图床就成了问题。使用七牛云的应该是最好的选择，但域名备案是个问题，没有办法绑定自定义域名，赠送的二级域名只有30天的试用。阿里云的OSS很便宜，但也有同样的问题。</p><p><img src="https://pic.downk.cc/item/5e6e28dce83c3a1e3afd363b.png" srcset="/img/loading.gif" alt="" title="七牛云"></p><p>　　想到之前在自己的Openwrt中安装了<a href="https://webd.cf/" target="_blank" rel="noopener">WebDisk</a>工具，可以外链图片。于是进行了一些设置，便得到了一个自建图床。</p><p>　　希望以后有时间能常更新，这里将是记录我成长的地方，记录生活中的点点滴滴。<br>没有域名和博客，心里总是痒痒的，想着完成这一篇文章，就可以再次投入到备考的进程中了，加油！</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>开心</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
